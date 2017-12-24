@@ -1,0 +1,313 @@
+body {
+    background-image: url(img/bg.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Titillium Web', sans-serif;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+    margin: 50px 0 10px 0;
+    align-self:baseline;
+    
+}
+
+.col{
+    margin:0 auto 0 auto;
+    max-width:50%;
+    display:flex;
+    height:1300px;
+    width:500px;
+    flex-direction:column;
+}
+
+.container{
+    width:100%;
+    height:1600px;
+    flex-basis:50%;
+}
+
+.form-title{
+    font-size: 32px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 1px 2px 2px rgba(43, 1, 0, 0.75);
+    text-align:center;
+    display:flex;
+    width:420px;
+    justify-content: center;    
+}
+
+.logo-bottom{
+    display:flex;
+    opacity:0.4
+    
+    
+    
+}
+
+.col-row{
+    display:flex;
+    height:300px;
+    
+}
+
+.tiles {
+    background-color: rgba(0, 0, 0, 0.23);
+    padding: 20px;
+    width: 380px;
+    max-width: calc(100% - 40px);
+    margin-bottom: 40px;
+    border-radius: 4px;
+}    
+
+.tiles .tile-content{
+    padding:20px;
+    background-color:#f3f3f3;
+    
+}
+
+form input {
+    margin-top:20px;
+    padding:10px;
+}
+
+form textarea{
+    margin-top:20px;
+    width:300px;
+    padding:20px;
+    height:200px;
+}
+
+
+.username, .password, .email, .location, .number {
+    width:260px;
+}
+
+.btn-signup{
+    height: 50px;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #51850e;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border: 1px solid #3b9a00;
+    border-radius: 2px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+   background-color: #3b9a00;
+}
+
+.btn-sendemail input[type="submit"]:hover{
+   background-color: #3b9a00;
+}
+
+
+.btn-sendemail{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #51850e;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border: 1px solid #3b9a00;
+    border-radius: 2px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+
+.btn{
+    height: 50px;
+    width: 30%;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #51850e;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border: 1px solid #3b9a00;
+    border-radius: 2px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+.btn-locked{
+    height:50px;
+    width: 30%;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #51850e;
+    background-color: #93d02b;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border: 1px solid #3b9a00;
+    border-radius: 2px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+    
+    
+}
+.row-btn{
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn-reset{
+    height:50px;
+    width: 30%;
+    font-size: 16px;
+    padding: 10px 10px;
+    color: #fff;
+    text-shadow: 1px 1px 0 #51850e;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.15) 100%);
+    border: 1px solid #3b9a00;
+    border-radius: 2px;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+    background-color: #f4495b;
+    border: 1px solid #a2202a;
+}
+
+input[type="reset"]:hover{
+   background-color: #a2202a;
+}
+
+.btn-locked{
+    background-color: #bcdb97;
+    border: 1px solid #90ca6d;
+    cursor: default;
+}
+
+.row-btn .btn, .btn-locked, .btn-reset{
+    width:130px;
+    height:50px;
+}
+
+.row-btn .btn-locked:hover{
+    background-color:#bcdb97
+}
+
+.username, .password, .email, .location, .number, .textarea{
+    border: 1px solid #c6c6c6;
+    background:-webkit-linear-gradient(#f6f6f6, #f0f0f0);
+    background:-o-linear-gradient(#f6f6f6, #f0f0f0);
+    background:linear-gradient(#f6f6f6, #f0f0f0);
+}
+
+input[type="text"], input[type="password"],input[type="email"],input[type="number"],textarea,input[list="cities"]{
+}
+
+input[placeholder]{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.username{
+    background: url(img/input-username.png) no-repeat scroll 7px ;
+    padding-left:70px;
+    order: 1px solid #c6c6c6;
+}
+
+.password{
+    background: url(img/input-password.png) no-repeat scroll 7px ;
+    padding-left:70px;
+    order: 1px solid #c6c6c6;
+}
+
+.email{
+    background: url(img/input-email.png) no-repeat scroll 5px ;
+    padding-left:70px;
+    order: 1px solid #c6c6c6;
+}
+
+.number{
+    background: url(img/input-phone.png) no-repeat scroll 10px   ;
+    padding-left:70px;
+    order: 1px solid #c6c6c6;
+}
+.location{
+    background: url(img/input-location.png) no-repeat scroll 10px ;
+    padding-left:72px;
+    order: 1px solid #c6c6c6;
+}
+
+.terms{
+    color:#afafaf;
+    font-size:17.5px;
+    display:inline-block;
+    margin-top:22px;
+}
+
+input[type="checkbox"]{
+    display:inline-block;
+    }
+
+.checkbox-wrapper{
+    width:100%;
+    display:inline-block;
+    display:flex;
+}
+
+.checkbox-wrapper label {
+  cursor: pointer;
+  line-height: 100%;
+}
+
+.checkbox{
+    height:20px;
+    width:20px;
+}
+    
+input[type="checkbox"] {
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fafafd;
+    border-radius: 5px;
+    position: relative;
+    border: 1px solid #c6c6c6;
+    background-color::#c6c6c6;
+}
+
+.checkbox:checked:after {
+    content: ' ';
+    width: 13px;
+    height: 14px;
+    left: 4px;
+    top: 4px;
+    position: absolute;
+    background: #a1d63e;
+}
+
+input::placeholder{
+    color:#afafaf;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+.textarea{
+    color:#afafaf;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+}
+
+.textarea::placeholder {
+    color: #afafaf;
+    font-size:14px;
+}
+
