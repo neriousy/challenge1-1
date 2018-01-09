@@ -216,30 +216,30 @@ input[placeholder]{
 .username{
     background: url(img/input-username.png) no-repeat scroll 7px ;
     padding-left:70px;
-    order: 1px solid #c6c6c6;
+    border: 1px solid #c6c6c6;
 }
 
 .password{
     background: url(img/input-password.png) no-repeat scroll 7px ;
     padding-left:70px;
-    order: 1px solid #c6c6c6;
+    border: 1px solid #c6c6c6;
 }
 
 .email{
     background: url(img/input-email.png) no-repeat scroll 5px ;
     padding-left:70px;
-    order: 1px solid #c6c6c6;
+    border: 1px solid #c6c6c6;
 }
 
 .number{
     background: url(img/input-phone.png) no-repeat scroll 10px   ;
     padding-left:70px;
-    order: 1px solid #c6c6c6;
+   border: 1px solid #c6c6c6;
 }
 .location{
     background: url(img/input-location.png) no-repeat scroll 10px ;
     padding-left:72px;
-    order: 1px solid #c6c6c6;
+    border: 1px solid #c6c6c6;
 }
 
 .terms{
